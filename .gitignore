@@ -1,0 +1,28 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+.npm
+*.tsbuildinfo
+
+# Java / Gradle
+.gradle/
+**/build/
+**/out/
+*.class
+*.jar
+*.war
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+*.env
