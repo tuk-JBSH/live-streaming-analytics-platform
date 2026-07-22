@@ -54,6 +54,16 @@
   - 목적, 아키텍처 텍스트 맵, 원칙(CQRS, Event Driven), 절대 지켜야 하는 규칙 4가지 및 backend/frontend 19개 지정 폴더 구조 원본 100% 보존 저장.
 - **관련 태그**: #architecture #tech-spec #documentation #rules
 
+## 2026-07-22T20:47+09:00 (KST)
+- **주요 변경점**: Git 저장소 초기화 및 풀스택/DevOps 2인 맞춤형 브랜치 구조 구축 완료.
+  - 루트 `.gitignore` 작성 (`node_modules`, `.next`, `build`, `.env*` 등 민감정보 및 빌드 아티팩트 100% 차단).
+  - 기존 프로젝트 코드를 4단계 논리적 분할 커밋으로 이력 정리 (`documentation`, `infra & brain`, `backend`, `frontend`).
+  - 브랜치 구조 세팅 완료:
+    - 앱 풀스택 (사용자): `main`, `dev`, `frontend`, `backend`
+    - 인프라/클라우드 (팀원): `infra/docker`, `infra/k8s`, `infra/cloud`
+- **관련 태그**: #git #repository #branching-strategy #monorepo #devops
+
+
 
 
 
