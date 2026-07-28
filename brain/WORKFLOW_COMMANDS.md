@@ -13,7 +13,9 @@
 | **`/init-frontend`**<br>(`프론트엔드 시작`, `프론트 워크플로우`) | 프론트엔드 UI, React/Next.js/Zustand, SSE/WS 규격 로딩 | `READ_ME.md` (Frontend)<br>`brain/current_state.md` |
 | **`/init-infra`**<br>(`인프라 시작`, `도커 설정 읽기`) | Kafka, Redis, MySQL, InfluxDB 및 Docker 포트/상태 점검 | `docker-compose.yml`<br>`READ_ME.md` (원칙)<br>`backend/application.yml` |
 | **`/init-project`**<br>(`프로젝트 개요`, `전체 사양 읽기`) | 전체 프로젝트 아키텍처, 비전 및 절대 규칙 5가지 파악 | `READ_ME.md`<br>`brain/current_state.md`<br>`docker-compose.yml` |
+| **`/learn-code`**<br>(`코드 학습`, `클론코딩 가이드`) | 프론트/백엔드 추천 학습 순서, 20자 역할 요약 및 실무 팁 로딩 | `CODE_LEARNING_GUIDE.md`<br>`backend_portfolio_tips_final.md` |
 | **`/finish-task`**<br>(`작업 완료`, `기록 마무리`) | 작업 완료 후 `brain` 기록 및 마일스톤 상태 갱신 | `brain/current_state.md`<br>`brain/history_partX.md` |
+
 
 ---
 
